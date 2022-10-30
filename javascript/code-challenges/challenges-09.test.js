@@ -150,23 +150,19 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  // let children = typeof [];
+  // let children = 0;
+
   // arr.forEach(person => {
-  //   if (character === person.name) {
-  //     let val = Object.values(person);
-  //     let hasChildren = typeof val[2];
-  //     console.log(hasChildren);
-  //     console.log(val);
-  //     if (hasChildren === typeof children) {
-  //       console.log(person.name);
-  //       return true;
-  //     }
-  //     else if (hasChildren === typeof children) {
-  //       console.log(person.name);
-  //       return false;
-  //     }
+  //   if (person.name === character) {
+  //     Object.keys(person).forEach((key, idx) => {
+  //       if (key === 'children') {
+  //         Object.values(person)[idx].length;
+  //       }
+  //     });
   //   }
   // });
+
+  // return children ? true : false;
 };
 
 /* ------------------------------------------------------------------------------------------------
