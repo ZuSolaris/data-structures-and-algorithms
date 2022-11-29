@@ -20,4 +20,24 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+# Reverse an Array
+
+Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
+
+
+## Whiteboard Process
+
+![Whiteboard](./images/reverseArray.PNG)
+
+## Approach & Efficiency
+
+This code challenge was solved using a while loop and assigning temporary values, while subtracting and adding to these temporary variables assigned to the the ends to essentially 'flip' the front and back of the array.
+
+   So essentially the approach that I applied was deconstructing the code challenge and using core logic itself. I knew that I couldn't use any built in methods so that limited me back to the basics!
+
+   The Big O: space is O(1)
+   while the time is O(n)
+
+   ****I followed along in class and disected the problem to ultimately solve this code challenge.** **
+
+
