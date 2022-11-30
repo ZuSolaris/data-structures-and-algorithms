@@ -40,4 +40,42 @@ This code challenge was solved using a while loop and assigning temporary values
 
    ****I followed along in class and disected the problem to ultimately solve this code challenge.** **
 
+   # insertShiftArray
+
+   Write a function called insertShiftArray which takes in an array and a value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
+
+## Whiteboard Process
+
+![insertShiftArray](./images/insertShiftArray.PNG)
+
+## Approach & Efficiency
+
+This coding problem required me to create a function, pre define an array and a number as aswell. I created a while loop to continue as long as the mid variable is less than or equal i, the index of i will be shifted over and reassigned. Then the remainig integers will also be subtracted by 1, for each iteration. The mid variable will then be reassigned to the num's value. I will then return the array.
+
+   The Big O: space is O(1)
+   while the time is O(n/2)
+
+   # BinarySearchArray
+
+Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the value of the search key, or -1 if the element is not in the array.
+NOTE: The search algorithm used in your function should be a binary search.
+Check the Resources section for details
+
+
+## Whiteboard Process
+
+![binarySearch](./images/binarySearch.png)
+
+## Approach & Efficiency
+
+Declare the binarySearch function that takes in a new array and a new value declare a high variable set equal to 0, declare  a low variable equal to the one less than the array length start a while loop that starts if the low is less than or equal to the high, in this loop set the middle variable (m) to round to median of the  sum of high and low values and if this value is not met return m.if this value is less, m will be given an additional value of one, if the value is greater it will be given a subtracted value of 1.
+If conditions cannot be satisfied than return -1 as an unsatisfactory value.
+
+   The Big O: space is O(1)
+   while the time is O(log n) logarithimic
+
+
+
+
+
 
