@@ -99,6 +99,31 @@ Returns: a string representing all the values in the Linked List, formatted as:
 I'm not sure to be honest what kind of approach that I could take with a Linked list, even after reviewing it I still don't get how a linked list works. Nothing clicked for me and making a test for each one of these test parameters seems like an impossible task. I JUST DONT GET IT. It all still seems so foreign to me. Space and efficency would have to be O1 and the time would have to be a 0(n) since it is constant.
 
 
+# Singly Linked List
+
+## Challenge
+Create a Linked List class
+Within your Linked List class, include a head property.
+Upon instantiation, an empty Linked List should be created.
+The class should contain the following methods
+insert
+Arguments: value
+Returns: nothing
+Adds a new node with that value to the head of the list with an O(1) Time performance.
+includes
+Arguments: value
+Returns: Boolean
+Indicates whether that value exists as a Node’s value somewhere within the list.
+to string
+Arguments: none
+Returns: a string representing all the values in the Linked List, formatted as:
+"{ a } -> { b } -> { c } -> NULL"
+
+## Approach & Efficiency
+I'm not sure to be honest what kind of approach that I could take with a Linked list, even after reviewing it I still don't get how a linked list works. Nothing clicked for me and making a test for each one of these test parameters seems like an impossible task. I JUST DONT GET IT. It all still seems so foreign to me. Space and efficency would have to be O1 and the time would have to be a 0(n) since it is constant.
+
+
+
 
 
 
