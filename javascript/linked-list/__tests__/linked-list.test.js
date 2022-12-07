@@ -1,7 +1,7 @@
 'use strict';
 
 // Require our linked list implementation
-const LinkedList = require('../linkedList.js');
+const LinkedList = require('../../javascript/linked-list/linkedList.js');
 
 describe('Linked List', () => {
   it('Can successfully instantiate an empty linked list', () => {

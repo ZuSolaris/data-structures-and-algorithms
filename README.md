@@ -122,7 +122,38 @@ Returns: a string representing all the values in the Linked List, formatted as:
 ## Approach & Efficiency
 I'm not sure to be honest what kind of approach that I could take with a Linked list, even after reviewing it I still don't get how a linked list works. Nothing clicked for me and making a test for each one of these test parameters seems like an impossible task. I JUST DONT GET IT. It all still seems so foreign to me. Space and efficency would have to be O1 and the time would have to be a 0(n) since it is constant.
 
+# linked-list-kth
 
+## Challenge
+
+Write the following method for the Linked List class:
+kth from end
+argument: a number, k, as a parameter.
+Return the node’s value that is k places from the tail of the linked list.
+You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+
+## Approach & Efficiency
+
+Define a function called kthFromEnd that takes in a value k as a parameter.
+Define current variable pointing to the linked list head.
+Define lengthCounter variable set to 1 that gets incremented to find length of the linked list.
+Define a while loop to traverse the linked list while there is a current.next to take us to the end of the array.
+Increment lengthCounter at each node in the while loop.
+Set current to Head.
+Define a value distanceFromFront that is the lengthCounter minus the k value to get the node position.
+Define a currIndex variable to find our current position.
+Create a while loop, that will loop until currIndex reaches the value of distanceFromFront.
+Return the value of current.
+
+Big O Notation
+
+Space 01
+
+Logaritimic: O(n^2)
+
+
+![linkedList-Kth](./images/binarySearch.png)
 
 
 
