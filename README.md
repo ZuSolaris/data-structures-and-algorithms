@@ -156,5 +156,79 @@ Logaritimic: O(n^2)
 ![linkedList-Kth](./images/binarySearch.png)
 
 
+# Singly Linked List
 
+## Challenge
+Create a Linked List class
+Within your Linked List class, include a head property.
+Upon instantiation, an empty Linked List should be created.
+The class should contain the following methods
+insert
+Arguments: value
+Returns: nothing
+Adds a new node with that value to the head of the list with an O(1) Time performance.
+includes
+Arguments: value
+Returns: Boolean
+Indicates whether that value exists as a Node’s value somewhere within the list.
+to string
+Arguments: none
+Returns: a string representing all the values in the Linked List, formatted as:
+"{ a } -> { b } -> { c } -> NULL"
+
+## Approach & Efficiency
+I'm not sure to be honest what kind of approach that I could take with a Linked list, even after reviewing it I still don't get how a linked list works. Nothing clicked for me and making a test for each one of these test parameters seems like an impossible task. I JUST DONT GET IT. It all still seems so foreign to me. Space and efficency would have to be O1 and the time would have to be a 0(n) since it is constant.
+
+# Stack and Queue animal shelter
+
+## Challenge
+
+Feature Tasks
+Create a class called AnimalShelter which holds only dogs and cats.
+The shelter operates using a first-in, first-out approach.
+Implement the following methods:
+enqueue
+Arguments: animal
+animal can be either a dog or a cat object.
+dequeue
+Arguments: pref
+pref can be either "dog" or "cat"
+Return: either a dog or a cat, based on preference.
+If pref is not "dog" or "cat" then return null.
+
+
+## Approach & Efficiency
+
+Define a node class
+
+Create a class for queues
+
+Create a new queue class for dogs
+
+Create a new queue class for cats
+
+Create an enqueue function for both dogs and cats,
+checking for either the dog or cat class. If else return null to the user.
+
+Create a dequeue function for both dogs and cats,
+checking for either the dog or cat class. If else return null to the user.
+
+If a correct value is selected  return 1
+
+If incorrect value is inputted return none.
+
+## Big O Notation
+
+Time
+O (1)
+
+Space
+O(n)
+
+## Work Flow
+
+link to: https://www.figma.com/file/FRVBTr5DJm7YogJpKhIS8V/Code-Challenge-12?node-id=4%3A42&t=nCTUanauwHXdzMtZ-0
+
+
+![stackQueue](./images/stackQueueAnimalShelter.PNG)
 
