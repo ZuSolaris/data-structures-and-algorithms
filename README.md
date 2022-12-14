@@ -232,3 +232,55 @@ link to: https://www.figma.com/file/FRVBTr5DJm7YogJpKhIS8V/Code-Challenge-12?nod
 
 ![stackQueue](./images/stackQueueAnimalShelter.PNG)
 
+# Linked List Zipper
+
+## Challenge
+
+Write a function called zip lists
+Arguments: 2 linked lists
+Return: New Linked List, zipped as noted below
+Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+Try and keep additional space down to O(1)
+You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+
+## Approach & Efficiency
+
+Define a function called zipperList that uses 2 lists as parameters
+
+Define current1 assign list1 head
+
+Define current2 assign list2 head
+
+while current1 and current 2 both exist at the same time
+
+set next1 as current1 next node
+
+set next2 as current2 next node
+
+if next node exists
+
+current1 next node assigned current2
+
+if next1 node  exists
+current 2 next node assigned as next 1
+
+current1 is assigned the value of next1
+current2 is assigned the value of next2
+
+return list1.head if list 1 or list 2 is end return.
+
+## Big O Notation
+
+Time
+O (1)
+
+Space
+O(n)
+
+## Work Flow
+
+link to: https://www.figma.com/file/uX4x5FUJZtUG5zWy3pB2Jk/Code-Challenge-8?node-id=4%3A53&t=F7xCbcQ2w7HRZWpb-0
+
+
+![Zipper](./images/Codingchallenge8.PNG)
