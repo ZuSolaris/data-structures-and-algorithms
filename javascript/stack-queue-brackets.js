@@ -2,13 +2,12 @@ class Node {
   constructor(value) {
     this.value = value;
     this.next = null;
-
   }
 }
 
 class Stack {
   constructor(){
-    this.top = null;
+    this.top = null
   }
 
   push(value) {
@@ -16,10 +15,9 @@ class Stack {
     node.next = this.top;
     this.top = node;
   }
+  pop(value){
 
-  pop(value) {
   }
-
   peek(){
     
   }
