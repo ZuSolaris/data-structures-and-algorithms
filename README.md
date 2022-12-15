@@ -284,3 +284,53 @@ link to: https://www.figma.com/file/uX4x5FUJZtUG5zWy3pB2Jk/Code-Challenge-8?node
 
 
 ![Zipper](./images/Codingchallenge8.PNG)
+
+# Stack Queue Brackets
+
+Not Finished.
+
+## Challenge
+
+Write a function called validate brackets
+Arguments: string
+Return: boolean
+representing whether or not the brackets in the string are balanced
+There are 3 types of brackets:
+
+Round Brackets : ()
+Square Brackets : []
+Curly Brackets : {}
+
+
+
+## Approach & Efficiency
+
+Gave up after an hour
+
+## Big O Notation
+
+Time
+O (1)
+
+Space
+O(n)
+
+## Work Flow
+Isolate brackets by pushing them into a  stack
+
+Compare them to remaining brackets in a string
+
+split the string
+
+use a forloop using string length and compare each character
+
+start an if statement and use 3 operators to test each character
+
+once found push opening brackets into a stack
+
+peek at the
+
+if there is only closing brackets in the array
+
+
+![Zipper](./images/Codingchallenge13.PNG)
