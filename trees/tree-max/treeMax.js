@@ -20,7 +20,7 @@ class Tree{
 constructor(){
 this.root = null;
 }
-
+//...
 
 function new Tree(node, value){
 if (node === null)

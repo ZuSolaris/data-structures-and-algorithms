@@ -334,3 +334,55 @@ if there is only closing brackets in the array
 
 
 ![Zipper](./images/Codingchallenge13.PNG)
+
+# Trees
+
+Utilizes the tree class to create its own class of binary search tree to branch off of.
+
+## Challenge
+Create a Binary Search Tree class
+This class should be a sub-class (or your languages equivalent) of the Binary Tree Class, with the following additional methods:
+Add
+Arguments: value
+Return: nothing
+Adds a new node with that value in the correct location in the binary search tree.
+Contains
+Argument: value
+Returns: boolean indicating whether or not the value is in the tree at least once.
+
+## Approach & Efficiency
+
+Just used the typical binary search tree approach.
+
+Defined the node
+
+.
+Defined the class
+
+Depending on the traversal method, it will determine the how the tree searches for it number.
+
+There is a preorder
+
+the traversal happens before
+
+If it happens in order the traversal happens to travel down the left node and
+
+If the traversal happens post order the traversal happens from the bottom after the nodes.
+
+# Test Cases
+
+Can successfully instantiate an empty tree
+
+Can successfully instantiate a tree with a single root node
+
+For a Binary Search Tree, can successfully add a left child and right child properly to a node
+
+Can successfully return a collection from a preorder traversal
+
+Can successfully return a collection from an inorder traversal
+
+Can successfully return a collection from a postorder traversal
+
+Returns true false for the contains method, given an existing or non-existing node value
+
+![cc15](./images/Cc15.PNG)
