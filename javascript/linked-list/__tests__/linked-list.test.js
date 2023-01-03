@@ -24,6 +24,7 @@ describe('Linked List', () => {
     expect(list.head.next.value).toBe(2);
   });
 
+
 });
 
 // The head property will properly point to the first node in the linked list
